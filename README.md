@@ -6,8 +6,8 @@
 ```javascript
 SANITY_DATASET_NAME=YOUR_DATASET_NAME // from sanity dashboard
 SANITY_PROJECT_ID=YOUR_PROJECT_ID // from sanity dashboard
-SANITY_PREVIEW_SECRET=YOUR_PREVIEW_SECRET // unique string
-SANITY_API_TOKEN=YOUR_API_TOKEN // from sanity dashboard
+SANITY_PREVIEW_SECRET=YOUR_PREVIEW_SECRET // unique string not sure needed
+SANITY_API_TOKEN=YOUR_API_TOKEN // from sanity dashboard not sure needed
 ```
 
 2. Run the development server:
