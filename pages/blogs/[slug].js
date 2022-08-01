@@ -65,7 +65,9 @@ const BlogDetail = ({blog: initialBlog, preview}) => {
 export async function getStaticProps({params, preview = false, previewData}) {
   const blog = await getBlogBySlug(params.slug, preview);
   return {
-    props: { blog, preview },
+    props: { blog: typeof blog == "undefined" ? null : blog,
+    preview
+   },
     unstable_revalidate: 1
   }
 }
