@@ -1,5 +1,5 @@
 
-## Getting Started Today
+## Getting Started 
 
 1. create `.env.local` file in root folder with values of:
 
